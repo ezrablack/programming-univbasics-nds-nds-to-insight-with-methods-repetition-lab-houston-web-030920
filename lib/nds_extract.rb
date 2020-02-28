@@ -40,9 +40,13 @@ end
 
 
 def total_gross(source)
+  total = 0 
   directors_totals(source).each do |k, v|
-    puts v
+    return v
+    total += v
+    total += 1 
   end
+  p total
 end    
     
 #  index = 0
