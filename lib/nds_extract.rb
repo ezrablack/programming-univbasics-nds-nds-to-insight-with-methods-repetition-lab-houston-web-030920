@@ -45,7 +45,7 @@ def total_gross(source)
     gross = 0 
     while gross < amt.size do 
       amount = amt[0]
-      total_gross += string 
+      total_gross += amount
       gross += 1 
     end
   end
