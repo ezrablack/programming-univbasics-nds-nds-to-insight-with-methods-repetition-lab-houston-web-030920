@@ -43,8 +43,10 @@ def total_gross(source)
   grand_total = 0 
   total = 0 
   while total < source.size do 
-    grand_total += directors_totals(source)
-    total += 1 
+    directors_totals(source).each do |k, v|
+      grand_total += v
+      total += 1 
+    end
   end
   grand_total
   p grand_total
