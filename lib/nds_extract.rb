@@ -40,8 +40,8 @@ end
 
 
 def total_gross(source)
-  directors_totals(source).each do |amt|
-    puts amt
+  directors_totals(source).each do |k, v|
+    puts v
   end
 end    
     
