@@ -44,7 +44,6 @@ def total_gross(source)
     worldwide_gross = 0 
     worldwide_gross += v
   end
-  puts worldwide_gross
 end    
     
 #  index = 0
