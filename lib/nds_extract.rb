@@ -43,6 +43,7 @@ def total_gross(source)
   directors_totals(source).each do |k, v|
     worldwide_gross = 0 
     worldwide_gross += v
+    puts worldwide_gross
   end
 end    
     
