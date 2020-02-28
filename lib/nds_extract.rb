@@ -40,10 +40,8 @@ end
 
 
 def total_gross(source)
-  worldwide_gross = 0 
   directors_totals(source).each do |k, v|
-    worldwide_gross += v
-    worldwide_gross += 1 
+    puts v
   end
 end    
     
