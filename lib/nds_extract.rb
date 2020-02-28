@@ -41,13 +41,7 @@ end
 
 def total_gross(source)
   directors_totals(source).each do |amt|
-    total_gross = 0 
-    gross = 0 
-    while gross < amt.size do 
-      
-      total_gross += amount
-      gross += 1 
-    end
+    puts amt
   end
   return total_gross
 end    
