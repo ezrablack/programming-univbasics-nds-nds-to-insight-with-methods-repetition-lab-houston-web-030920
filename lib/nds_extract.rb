@@ -44,7 +44,7 @@ def total_gross(source)
     total_gross = 0 
     gross = 0 
     while gross < amt.size do 
-      amount = amt[0]
+      
       total_gross += amount
       gross += 1 
     end
