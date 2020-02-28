@@ -43,7 +43,6 @@ def total_gross(source)
   directors_totals(source).each do |amt|
     puts amt
   end
-  return total_gross
 end    
     
 #  index = 0
