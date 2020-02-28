@@ -40,13 +40,14 @@ end
 
 
 def total_gross(source)
+  grand_total = 0 
   total = 0 
-  directors_totals(source).each do |k, v|
-    return v
-    total += v
+  while total < source.size do 
+    grand_total += directors_totals(source)
     total += 1 
   end
-  p total
+  grand_total
+  p grand_total
 end    
     
 #  index = 0
